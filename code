@@ -20,15 +20,15 @@ public class RandomIng
         Random r=new Random();
         int randomIng=r.nextInt(meat.length);
         System.out.println("First burrito:");
-        System.out.println("Meat:" + meat[randomIng]);
-        System.out.println("Rice:" + rice[randomIng]);
-        System.out.println("Bean:" + bean[randomIng]);
-        System.out.println("Salsa:" + salsa[randomIng]);
-        System.out.println("Veggies:" + veggies[randomIng]);
-        System.out.println("Cheese:" + cheese[randomIng]);
-        System.out.println("Guac:" + guac[randomIng]); 
-        System.out.println("Queso:" + queso[randomIng]);
-        System.out.println("Sour Cream:" + sc[randomIng]);
+        System.out.println("Meat: " + meat[randomIng]);
+        System.out.println("Rice: " + rice[randomIng]);
+        System.out.println("Bean: " + bean[randomIng]);
+        System.out.println("Salsa: " + salsa[randomIng]);
+        System.out.println("Veggies: " + veggies[randomIng]);
+        System.out.println("Cheese: " + cheese[randomIng]);
+        System.out.println("Guac: " + guac[randomIng]); 
+        System.out.println("Queso: " + queso[randomIng]);
+        System.out.println("Sour Cream: " + sc[randomIng]);
         
         
         
