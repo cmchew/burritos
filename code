@@ -1,13 +1,37 @@
 import java.util.Arrays;
 import java.util.Random;
-public class burritos {
-    public static void main(String[] args) {
+public class RandomIng
+{
+    public static void main(String[] args)
+    {
         
-           
-            
-            
-            
-            
-            
+        String[] meat={"chicken", "steak", "carnidas", "chorizo", "sofritas", "veggie meat", "none", "all"};
+        String[] rice={"white", "brown", "none", "all"};
+        String[] bean={"pinto", "black", "none", "all"};
+        String[] salsa={"mild", "medium", "hot", "none", "all"};
+        String[] veggies={"lettuce", "fajita", "veggies", "none", "all"};
+        String[] cheese={"yes", "no"};
+        String[] guac={"yes", "no"};
+        String[] queso={"yes", "no"};
+        String[] sc={"yes", "no"};
+        
+        
+        
+        Random r=new Random();
+        int randomIng=r.nextInt(meat.length);
+        System.out.println("First burrito:");
+        System.out.println("Meat:" + meat[randomIng]);
+        System.out.println("Rice:" + rice[randomIng]);
+        System.out.println("Bean:" + bean[randomIng]);
+        System.out.println("Salsa:" + salsa[randomIng]);
+        System.out.println("Veggies:" + veggies[randomIng]);
+        System.out.println("Cheese:" + cheese[randomIng]);
+        System.out.println("Guac:" + guac[randomIng]); 
+        System.out.println("Queso:" + queso[randomIng]);
+        System.out.println("Sour Cream:" + sc[randomIng]);
+        
+        
+        
+        
     }
 }
